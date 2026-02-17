@@ -67,12 +67,16 @@ GROUP BY Product_Name, Product_Category
 ORDER BY Total_Revenue DESC;
 
 -- 7. Customer Purchase Frequency
+-- Note: DATEDIFF syntax varies by SQL dialect
+-- SQL Server: DATEDIFF(day, start_date, end_date)
+-- PostgreSQL: (end_date - start_date) or DATE_PART('day', end_date - start_date)
+-- MySQL: DATEDIFF(end_date, start_date)
 SELECT 
     Customer_ID,
     COUNT(Order_ID) as Purchase_Count,
     MIN(Date) as First_Purchase,
     MAX(Date) as Last_Purchase,
-    DATEDIFF(day, MIN(Date), MAX(Date)) as Customer_Lifetime_Days,
+    DATEDIFF(day, MIN(Date), MAX(Date)) as Customer_Lifetime_Days,  -- SQL Server syntax
     SUM(Total_Amount) as Total_Revenue
 FROM sales_data
 GROUP BY Customer_ID

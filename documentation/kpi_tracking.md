@@ -74,7 +74,7 @@
 ### 11. Product Performance Index
 **Definition:** Measure of individual product contribution  
 **Formula:** `(Product Revenue / Total Revenue) × 100`  
-**Top Category:** Electronics (40.3%)  
+**Top Category:** Electronics (51.4%)  
 **Status:** 📊 Tracking
 
 ### 12. Inventory Turnover Rate
