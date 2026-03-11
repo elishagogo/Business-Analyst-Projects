@@ -38,26 +38,6 @@ Business-Analyst-Projects/
 └── requirements.txt              # Python dependencies
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package installer)
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/elishagogo/Business-Analyst-Projects.git
-cd Business-Analyst-Projects
-```
-
-2. Install required Python packages:
-```bash
-pip install -r requirements.txt
-```
-
 ### Running the Analysis
 
 1. **Run Sales Analysis:**
@@ -180,13 +160,6 @@ Contributions are welcome! Feel free to:
 - Share additional datasets
 - Suggest improvements
 
-## 📄 License
-
-This project is open source and available for educational purposes.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue in the repository.
 
 ---
 
